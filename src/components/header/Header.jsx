@@ -1,9 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import logoWhite from '../../assests/images/Logo_White.png'
+import { Button } from "components/button/Button";
+import { HeaderStyled } from "./Header.styled";
 
-const Header =()=>{
-    return <header>
+export const Header =()=>{
+    return <HeaderStyled>
+        <div>
+           <img src={`${logoWhite}`} alt="Fix all logo" width={84} height={22} />
+        </div>
         
-        
-    </header>
+      <div>
+      <Button text={'Sign in'}/>
+        <Button text={'Join'}/>
+      </div>
+    </HeaderStyled>
 }
