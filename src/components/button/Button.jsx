@@ -1,7 +1,8 @@
-import React from "react";
+// import React from "react";
+// import { ButtonStyled } from "./Button.styled";
 
-export const Button =({text})=>{
-    return <button>
-{text}
-    </button>
-}
+// export const Button =({text})=>{
+//     return <ButtonStyled>
+// {text}
+//     </ButtonStyled>
+// }

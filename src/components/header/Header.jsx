@@ -1,7 +1,8 @@
 import React from "react";
 import logoWhite from '../../assests/images/Logo_White.png'
-import { Button } from "components/button/Button";
+// import { Button } from "components/button/Button";
 import { HeaderStyled } from "./Header.styled";
+import { ButtonStyled } from "components/button/Button.styled";
 
 export const Header =()=>{
     return <HeaderStyled>
@@ -10,8 +11,8 @@ export const Header =()=>{
         </div>
         
       <div>
-      <Button text={'Sign in'}/>
-        <Button text={'Join'}/>
+      <ButtonStyled small>Sign in</ButtonStyled>
+        <ButtonStyled small>Join</ButtonStyled>
       </div>
     </HeaderStyled>
 }

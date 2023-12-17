@@ -1,6 +1,7 @@
 import { Header } from "components/header/Header"
-import { MainWrapper, SharedDiv } from "./Layout.styled"
+import { MainWrapper } from "./Layout.styled"
 import { Hero } from "components/heroSection/Hero"
+import { SharedWrapper } from "components/sharedWrapper/SharedWrapper"
 // import { css } from '@emotion/styled';
 // import background from '../../assests/images/heroMobile.jpg';
 
@@ -14,10 +15,12 @@ import { Hero } from "components/heroSection/Hero"
 // `;
 export const Layout=()=>{
     return <MainWrapper>
-       
+       <SharedWrapper>
        <Header/>
-       <SharedDiv>
-        <Hero/>
-       </SharedDiv>
+      
+      <Hero/>
+       </SharedWrapper>
+       
+      
     </MainWrapper>
 }
