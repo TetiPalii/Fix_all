@@ -1,10 +1,11 @@
-import { Layout } from "./layout/Layout";
+import { lazy } from "react";
+import { Route, Routes } from "react-router-dom";
 
+const Home = lazy(()=>import('../pages/home/Home'))
 export const App = () => {
   return (
-    <div>
-      <Layout/>
-
-    </div>
+   <Routes>
+    <Route path="/" element={<Home/>}/>
+   </Routes>
   );
 };

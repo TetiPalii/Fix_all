@@ -1,11 +1,13 @@
 import styled from '@emotion/styled';
 import background from '../../assests/images/heroMobile.jpg';
 
+
 export const HeroSection = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
  align-items:center;
+ padding-bottom:106px;
   /* height:413px;
 background-color: #C4C4C4;
   background-image: url(${background});
@@ -22,4 +24,8 @@ export const H1 = styled.h1`
 `;
  export const H1Wrapp = styled.div`
   width:339px;
+  margin-bottom:39px;
  `
+
+ 
+ 
